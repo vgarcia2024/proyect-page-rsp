@@ -44,8 +44,21 @@ header p {
   opacity: 0.8;
 }
 
-/* === NAV === */
+/* === SERVICE-OFFER */
 
+.service-offer {
+  width: 72%;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 1rem;
+  color: #4b6cb7;
+  animation: movementUp 3s alternate infinite;
+}
+
+/* === NAV === */
 
 nav ul {
   display: flex;
@@ -62,14 +75,14 @@ nav a {
 }
 
 nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    transition: width 0.3s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
 }
 
 nav a:hover::after {
